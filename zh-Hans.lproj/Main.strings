@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "1/10"; ObjectID = "R6B-WK-Bka"; */
+"R6B-WK-Bka.text" = "1/10";
+
+/* Class = "UIButton"; normalTitle = "提示"; ObjectID = "SNh-Oa-wzM"; */
+"SNh-Oa-wzM.normalTitle" = "提示";
+
+/* Class = "UIButton"; normalTitle = "100000"; ObjectID = "Udr-B0-mTI"; */
+"Udr-B0-mTI.normalTitle" = "100000";
+
+/* Class = "UIButton"; normalTitle = "下一题"; ObjectID = "gIO-7E-aMR"; */
+"gIO-7E-aMR.normalTitle" = "下一题";
+
+/* Class = "UIButton"; normalTitle = "帮助"; ObjectID = "mKW-eG-lpW"; */
+"mKW-eG-lpW.normalTitle" = "帮助";
+
+/* Class = "UILabel"; text = "喜剧大片"; ObjectID = "noc-cY-a0P"; */
+"noc-cY-a0P.text" = "喜剧大片";
+
+/* Class = "UIButton"; normalTitle = "大图"; ObjectID = "sdd-6J-fsN"; */
+"sdd-6J-fsN.normalTitle" = "大图";
