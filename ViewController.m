@@ -128,14 +128,19 @@
     if (self.index >= self.questions.count)
     {
         self.index=9;
-        UIAlertView *alertView=[[UIAlertView alloc] initWithTitle:@"通关了" message:@"恭喜你" delegate:self cancelButtonTitle:@"结束" otherButtonTitles:@"继续",@"扣钱了", nil];
-        [alertView show];
         
-        
-        //destructiveButtonTitle 这个是是变红的字
-        UIActionSheet *sheet=[[UIActionSheet alloc] initWithTitle:@"通关了" delegate:self cancelButtonTitle:@"好的" destructiveButtonTitle:@"发钱了" otherButtonTitles:@"继续", nil];
-        [sheet showInView:self.view];
-        
+        UIAlertController *alertController=[UIAlertController alertControllerWithTitle:@"通关了" message:@"恭喜你" preferredStyle:UIAlertControllerStyleActionSheet];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"发钱啦" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+            
+        }]];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"继续" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+        }]];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"结束" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            
+        }]];
+        [self presentViewController:alertController animated:YES completion:nil];
+
         return;
     }
     
